@@ -1,0 +1,84 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="D:/r4-webstrom/src/main/webapp/app/development/js/widgets/revenue/revenue-inventory.ts" timestamp="1455750386623">
+        <mark key="'" line="24" column="0" />
+        <mark key="[" line="6" column="28" />
+        <mark key="]" line="6" column="28" />
+        <mark key="." line="6" column="28" />
+        <mark key="^" line="6" column="25" />
+      </file>
+      <file name="D:/r4-git/r4p-r4portal_2.0/src/main/webapp/app/development/css/widgets/helpers/filter-box-wrapper--apply.less" timestamp="1463395075243">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+      </file>
+      <file name="D:/r4-git/r4p-r4portal_2.0/src/main/webapp/app/development/js/helpers/filter-box.ts" timestamp="1463394421649">
+        <mark key="[" line="357" column="54" />
+        <mark key="]" line="357" column="54" />
+        <mark key="." line="357" column="54" />
+        <mark key="^" line="357" column="55" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="23" column="0" filename="D:/r4-webstrom/src/main/webapp/app/development/js/widgets/revenue/revenue-inventory.ts" />
+    </jumps>
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgIG1hcmdpbjogYXV0bzsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsK</text>
+      </register>
+      <register name="3" type="4">
+        <text>)</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgICAgICB0aGlzLmRpZ2VzdCgpOwo=</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">CgoKCg==</text>
+      </register>
+      <register name="6" type="4">
+        <text>ashboar
+ashboar
+ashboar</text>
+      </register>
+      <register name="7" type="4">
+        <text>p</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>)</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>

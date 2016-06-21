@@ -1,0 +1,15 @@
+<code_scheme name="Default (1)">
+  <TypeScriptCodeStyleSettings>
+    <option name="SPACE_AFTER_TYPE_COLON" value="true" />
+  </TypeScriptCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="TypeScript">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

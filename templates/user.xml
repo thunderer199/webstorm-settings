@@ -1,0 +1,152 @@
+<templateSet group="user">
+  <template name="ssfunc" value="sen.ServerServices.prototype.$responseName$ = function (callback, errorCallback) {&#10;    if (isGuideTour &amp;&amp; xmlResponses.$responseName$) {&#10;        // fake data&#10;        callback(_.clone(xmlResponses.$responseName$.responseText));&#10;    } else {&#10;        return $.ajax({&#10;            type: 'GET',&#10;            url: '',&#10;            dataType: &quot;json&quot;,&#10;            contentType: &quot;application/json&quot;,&#10;            success: callback,&#10;            error: errorCallback&#10;        });&#10;    }&#10;&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="responseName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ef" value="this.$element.find('.$class$')" description="Fiend component in element" toReformat="true" toShortenFQNames="true">
+    <variable name="class" expression="lowercaseAndDash(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="st" value="super.$func$;&#10;return this;" toReformat="true" toShortenFQNames="true">
+    <variable name="func" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="controller" value="/// &lt;reference path=&quot;../inc.d.ts&quot;/&gt;&#10;&#10;'use strict';&#10;&#10;module sen {&#10;  export class $FILENAME$ extends Controllers.IWidgetComponent {&#10;    widgetName = &quot;$FILENAME$&quot;;&#10;    $widgetContainer = $('#' + this.widgetName);&#10;&#10;    linked: boolean = false;&#10;&#10;&#10;    init(data: any): any {&#10;      super.init(data);&#10;      &#10;      &#10;      &#10;      return this;&#10;    }&#10;&#10;    link(): sen.Controllers.IWidgetComponent {&#10;      super.link();&#10;      &#10;      &#10;      &#10;      return; &#10;    }&#10;  }&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="widgetxml" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;widget&gt;&#10;    &lt;section id=&quot;$FILENAME$&quot; widgetID=&quot;$MANAGER$&quot;&#10;             widgetHandler=&quot;$MANAGER$&quot; style=&quot;display:none&quot;&gt;&#10;        &#10;    &lt;/section&gt;&#10;&lt;/widget&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="MANAGER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="widget" value="/// &lt;reference path=&quot;../inc.d.ts&quot; /&gt;&#10;&#10;'use strict';&#10;&#10;module sen.Widgets {&#10;&#10;  export interface I$className$Scope extends App.Core.IScope {&#10;  }&#10;&#10;  export class $className$ extends App.Core.DataBinderTemplate {&#10;    static templateUrl = 'templates/widgets/$fileName$.html';&#10;    static scope = {&#10;    };&#10;&#10;    binderClass = &quot;binder&quot;;&#10;&#10;    scope: I$className$Scope;&#10;&#10;    $components: {} = {};&#10;&#10;    components: {} = {};&#10;&#10;&#10;    link(): App.Core.Component {&#10;      super.link();&#10;&#10;      this.digest();&#10;      return this;&#10;    }&#10;&#10;  }&#10;&#10;  App.Core.Binder.addBindComponent('$fileName$', $className$);&#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="className" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="true" />
+    <variable name="fileName" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="dialogtmp" value="&lt;div class=&quot;modal-header clearfix&quot;&gt;&#10;    &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;span class=&quot;sr-only&quot;&gt;Close&lt;/span&gt;&#10;    &lt;/button&gt;&#10;&#10;    &lt;h3&gt;$header$&lt;/h3&gt;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;file-explorer modal-body clearfix view&quot;&gt;&#10;&#10;    $body$&#10;&#10;&lt;/div&gt;&#10;&lt;div class=&quot;modal-footer hidden&quot;&gt;&#10;    &lt;div class=&quot;pull-right&quot;&gt;&#10;        &lt;button class=&quot;btn btn-primary&quot; data-dismiss=&quot;modal&quot;&gt;Cancel&lt;/button&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="header" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="body" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
