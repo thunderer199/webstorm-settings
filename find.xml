@@ -2,8 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
     <option name="defaultScopeName" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
-    <option name="wholeWordsOnly" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
     <recentFileMasks>
       <mask>*.properties</mask>
