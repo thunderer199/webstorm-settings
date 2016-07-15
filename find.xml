@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
+    <option name="FILE_MASK" value="*ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
