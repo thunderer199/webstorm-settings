@@ -10,6 +10,10 @@
           <option name="url" value="http://vlashko@bitbucket.r4cloud.com/scm/rplat/r4p-r4portal_2.0.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://vlashko@bitbucket.r4cloud.com/scm/ruic/r4-ui-widgets.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\r4-git-fixed" />
