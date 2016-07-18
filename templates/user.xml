@@ -1,5 +1,5 @@
 <templateSet group="user">
-  <template name="ssfunc" value="sen.ServerServices.prototype.$responseName$ = function (callback, errorCallback) {&#10;    if (isGuideTour &amp;&amp; xmlResponses.$responseName$) {&#10;        // fake data&#10;        callback(_.clone(xmlResponses.$responseName$.responseText));&#10;    } else {&#10;        return $.ajax({&#10;            type: 'GET',&#10;            url: '',&#10;            dataType: &quot;json&quot;,&#10;            contentType: &quot;application/json&quot;,&#10;            success: callback,&#10;            error: errorCallback&#10;        });&#10;    }&#10;&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="ssfunc" value="sen.ServerServices.prototype.$responseName$ = function (callback, errorCallback) {&#10;    if (isGuideTour &amp;&amp; xmlResponses.$responseName$) {&#10;        // fake data&#10;        callback(_.clone(xmlResponses.$responseName$.responseText));&#10;    } else {&#10;        return $.ajax({&#10;            type: 'GET',&#10;            url: '',&#10;            dataType: &quot;json&quot;,&#10;            contentType: &quot;application/json&quot;,&#10;            success: callback,&#10;            error: errorCallback&#10;        });&#10;    }&#10;&#10;};&#10;" toReformat="true" toShortenFQNames="true">
     <variable name="responseName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -47,6 +47,22 @@
     <variable name="body" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="promise" value="let sessionKey = serverServices.getCookie('c_unique_id');&#10;let def = $.Deferred();&#10;&#10;serverServices.$END$(sessionKey, def.resolve, def.reject);&#10;&#10;return def.promise();" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ssr" value="&quot;$fileName$&quot;: {&#10;    &quot;responseText&quot;: &quot;#$fileName$&quot;&#10;  },&#10;  &quot;#$fileName$&quot; : {&#10;    &quot;responseUrl&quot;: { &quot;type&quot;: &quot;json&quot;, &quot;path&quot;: &quot;./ServerServicesResponses/EZ/$fileName$.json&quot; }&#10;  }" toReformat="true" toShortenFQNames="true">
+    <variable name="fileName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="true" />
     </context>
   </template>
 </templateSet>
