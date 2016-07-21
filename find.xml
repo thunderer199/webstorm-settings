@@ -1,9 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
     <option name="defaultScopeName" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
     <recentFileMasks>
       <mask>*.properties</mask>
