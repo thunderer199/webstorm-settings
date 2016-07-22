@@ -14,9 +14,13 @@
           <option name="url" value="http://vlashko@bitbucket.r4cloud.com/scm/ruic/r4-ui-widgets.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="ssh://git@bitbucket.r4cloud.com:7999/rplat/r4p-r4portal_2.0.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\r4-git-fixed" />
+    <option name="cloneParentDir" value="I:\Projects" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="PATCH_STORAGE_LOCATION" value="D:\r4-git\r4p-r4portal_2.0" />
