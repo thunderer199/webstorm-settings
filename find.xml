@@ -1,12 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
-    <option name="defaultScopeName" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
+    <option name="customScope" value="Project 'r4-ui-widgets'" />
+    <option name="defaultScopeName" value="Project 'r4-ui-widgets'" />
     <option name="localRegularExpressions" value="true" />
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
+    <option name="SEARCH_SCOPE" value="Project 'r4-ui-widgets'" />
     <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.properties</mask>
