@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
-    <option name="defaultScopeName" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
-    <option name="SEARCH_SCOPE" value="Directory 'D:\r4-webstrom\src\main\webapp\app\development\js\widgets\audience'" />
+    <option name="customScope" value="Sources" />
+    <option name="defaultScopeName" value="Sources" />
+    <option name="SEARCH_SCOPE" value="Sources" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
