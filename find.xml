@@ -1,8 +1,12 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Sources" />
-    <option name="defaultScopeName" value="Sources" />
-    <option name="SEARCH_SCOPE" value="Sources" />
+    <option name="customScope" value="Project 'r4-ui-widgets'" />
+    <option name="defaultScopeName" value="Project 'r4-ui-widgets'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="Project 'r4-ui-widgets'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -16,6 +20,7 @@
       <mask>*.json</mask>
       <mask>*.ts</mask>
       <mask>*ts</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
