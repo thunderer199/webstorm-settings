@@ -21,6 +21,7 @@
       <mask>*.less</mask>
       <mask>*.d.ts</mask>
       <mask>*.ts</mask>
+      <mask>*.*ss</mask>
       <mask>*.*ml</mask>
     </recentFileMasks>
   </component>
