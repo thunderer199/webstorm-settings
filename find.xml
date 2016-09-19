@@ -3,7 +3,7 @@
     <option name="customScope" value="Project 'r4-ui-widgets'" />
     <option name="defaultScopeName" value="Project 'r4-ui-widgets'" />
     <option name="SEARCH_SCOPE" value="Project 'r4-ui-widgets'" />
-    <option name="FILE_MASK" value="*.less" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -17,10 +17,10 @@
       <mask>*.json</mask>
       <mask>*ts</mask>
       <mask>*.d.ts</mask>
-      <mask>*.ts</mask>
       <mask>*.*ss</mask>
       <mask>*.*ml</mask>
       <mask>*.less</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
