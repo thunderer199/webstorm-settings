@@ -7,4 +7,26 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="layout-widget" value="{&#10;    &quot;type&quot;: &quot;Container&quot;,&#10;    &quot;classes&quot;: &quot;&quot;,&#10;    &quot;widgets&quot;: [$SELECTION$]&#10;}" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="layout-prop" value="&quot;properties&quot;: {&#10;    &quot;attributes&quot;: {&#10;        $END$                             &#10;    }&#10;}," toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
