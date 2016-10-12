@@ -30,6 +30,10 @@
           <option name="url" value="http://vlashko@bitbucket.r4cloud.com/scm/ruic/r4-ui-base-project.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/thunderer199/angular-schema-form-image-upload.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\r4-git-fixed" />
