@@ -2,8 +2,6 @@
   <component name="FindSettings">
     <option name="customScope" value="Project 'r4-ui-widgets'" />
     <option name="defaultScopeName" value="Project 'r4-ui-widgets'" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="Project 'r4-ui-widgets'" />
     <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
