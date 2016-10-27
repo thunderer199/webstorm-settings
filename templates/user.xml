@@ -29,4 +29,18 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="layout-ds" value="$SELECTION$: {&#10;  &quot;datasource&quot;: {&#10;    &quot;sourceType&quot;: &quot;DataSource&quot;,&#10;    &quot;scope&quot;: &quot;Page&quot;,&#10;    &quot;id&quot;: &quot;$dsID$&quot;&#10;  },&#10;  &quot;mode&quot;: &quot;$mode$&quot;,&#10;  &quot;expression&quot;: &quot;data.$path$&quot;&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+    <variable name="dsID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="mode" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="XML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
 </templateSet>
