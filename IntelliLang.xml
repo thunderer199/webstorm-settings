@@ -9,5 +9,9 @@
       <display-name>div/@term-template</display-name>
       <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("term-template")).withParent(xmlTag().withLocalName(string().equalTo("div")).withNamespace(string().equalTo("http://www.w3.org/1999/html")))]]></place>
     </injection>
+    <injection language="HTML" injector-id="xml">
+      <display-name>section</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("section"))]]></place>
+    </injection>
   </component>
 </application>
