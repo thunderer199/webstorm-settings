@@ -3,7 +3,7 @@
     <option name="customScope" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
     <option name="defaultScopeName" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
     <option name="SEARCH_SCOPE" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.*ml" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -17,10 +17,10 @@
       <mask>*ts</mask>
       <mask>*.d.ts</mask>
       <mask>*.*ss</mask>
-      <mask>*.*ml</mask>
       <mask>*.less</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
+      <mask>*.*ml</mask>
     </recentFileMasks>
   </component>
 </application>
