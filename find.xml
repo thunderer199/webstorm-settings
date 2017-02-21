@@ -2,10 +2,7 @@
   <component name="FindSettings">
     <option name="customScope" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
     <option name="defaultScopeName" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
-    <option name="localRegularExpressions" value="true" />
-    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
-    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -19,11 +16,11 @@
       <mask>*ts</mask>
       <mask>*.d.ts</mask>
       <mask>*.*ss</mask>
+      <mask>*.less</mask>
       <mask>*.html</mask>
       <mask>*.ts</mask>
       <mask>*.*ml</mask>
       <mask>gcpResult*.xml</mask>
-      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
