@@ -2,7 +2,6 @@
   <component name="NotificationConfiguration">
     <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" />
     <notification groupId="Indexing" />
-    <notification groupId="Localization and Internationalization" displayType="NONE" shouldLog="false" />
     <notification groupId="System Health" displayType="STICKY_BALLOON" />
     <notification groupId="Vcs Notifications" displayType="STICKY_BALLOON" />
   </component>
