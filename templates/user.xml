@@ -1,54 +1,54 @@
 <templateSet group="user">
-  <template name="widget" value="module sen.Widgets {&#10;    export interface I$widgetName$Scope extends App.Core.IScope {&#10;        &#10;    }&#10;    &#10;    export class $widgetName$ extends App.Core.DataBinder {&#10;        static templateUrl = 'templates/widgets/filters/$binderName$.html';&#10;        static scope = {};&#10;        &#10;        scope: I$widgetName$Scope;&#10;        &#10;        link(): $widgetName$ {&#10;            super.link();&#10;            &#10;            $END$&#10;            &#10;            return this;&#10;        }&#10;    }&#10;    App.Core.Binder.addBindComponent('$binderName$', $widgetName$);&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="widget" value="module sen.Widgets {&#10;    export interface I$widgetName$Scope extends App.Core.IScope {&#10;        &#10;    }&#10;    &#10;    export class $widgetName$ extends App.Core.DataBinder {&#10;        static templateUrl = 'templates/widgets/filters/$binderName$.html';&#10;        static scope = {};&#10;        &#10;        scope: I$widgetName$Scope;&#10;        &#10;        link(): $widgetName$ {&#10;            super.link();&#10;            &#10;            $END$&#10;            &#10;            return this;&#10;        }&#10;    }&#10;    App.Core.Binder.addBindComponent('$binderName$', $widgetName$);&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="widgetName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="binderName" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="layout-widget" value="{&#10;    &quot;type&quot;: &quot;Container&quot;,&#10;    &quot;classes&quot;: &quot;&quot;,&#10;    &quot;widgets&quot;: [$SELECTION$]&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="layout-widget" value="{&#10;    &quot;type&quot;: &quot;Container&quot;,&#10;    &quot;classes&quot;: &quot;&quot;,&#10;    &quot;widgets&quot;: [$SELECTION$]&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="XML" value="false" />
       <option name="CSS" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="JSON" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
-  <template name="layout-prop" value="&quot;properties&quot;: {&#10;    &quot;attributes&quot;: {&#10;        $END$                             &#10;    }&#10;}," toReformat="true" toShortenFQNames="true">
+  <template name="layout-prop" value="&quot;properties&quot;: {&#10;    &quot;attributes&quot;: {&#10;        $END$                             &#10;    }&#10;}," description="" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="XML" value="false" />
       <option name="CSS" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="JSON" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
-  <template name="layout-ds" value="$SELECTION$: {&#10;  &quot;datasource&quot;: {&#10;    &quot;sourceType&quot;: &quot;DataSource&quot;,&#10;    &quot;scope&quot;: &quot;Page&quot;,&#10;    &quot;id&quot;: &quot;$dsID$&quot;&#10;  },&#10;  &quot;mode&quot;: &quot;$mode$&quot;,&#10;  &quot;expression&quot;: &quot;data.$path$&quot;&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="layout-ds" value="$SELECTION$: {&#10;  &quot;datasource&quot;: {&#10;    &quot;sourceType&quot;: &quot;DataSource&quot;,&#10;    &quot;scope&quot;: &quot;Page&quot;,&#10;    &quot;id&quot;: &quot;$dsID$&quot;&#10;  },&#10;  &quot;mode&quot;: &quot;$mode$&quot;,&#10;  &quot;expression&quot;: &quot;data.$path$&quot;&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="dsID" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="mode" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="path" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="XML" value="false" />
       <option name="CSS" value="false" />
-      <option name="OTHER" value="true" />
       <option name="HTML" value="false" />
-      <option name="TypeScript" value="false" />
-      <option name="JSON" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
     </context>
   </template>
-  <template name="test-widget" value="module test {&#10;    export interface I$widgetName$TestScope extends App.Core.IScope {&#10;    }&#10;&#10;    export class $widgetName$Test extends CommonTestClass {&#10;        bindName = '$binderName$';&#10;        argsMapping = {&#10;        };&#10;        scope: I$widgetName$TestScope;&#10;&#10;        setScopeVariables(): this {&#10;            return this;&#10;        }&#10;    }&#10;    App.Core.Binder.addBindComponent('test-$binderName$', $widgetName$Test);&#10;}&#10;" toReformat="true" toShortenFQNames="true">
+  <template name="test-widget" value="module test {&#10;    export interface I$widgetName$TestScope extends App.Core.IScope {&#10;    }&#10;&#10;    export class $widgetName$Test extends CommonTestClass {&#10;        bindName = '$binderName$';&#10;        argsMapping = {&#10;        };&#10;        scope: I$widgetName$TestScope;&#10;&#10;        setScopeVariables(): this {&#10;            return this;&#10;        }&#10;    }&#10;    App.Core.Binder.addBindComponent('test-$binderName$', $widgetName$Test);&#10;}&#10;" description="" toReformat="true" toShortenFQNames="true">
     <variable name="widgetName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="false" />
     <variable name="binderName" expression="lowercaseAndDash(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <context>
-      <option name="TypeScript" value="true" />
       <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
