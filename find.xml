@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
-    <option name="defaultScopeName" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
-    <option name="SEARCH_SCOPE" value="File '[r4-ui-widgets-1] - ...\src\maps\ts\google-map.ts'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
