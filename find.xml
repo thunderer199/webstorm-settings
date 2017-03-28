@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -14,7 +15,6 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.js</mask>
-      <mask>*.json</mask>
       <mask>*ts</mask>
       <mask>*.d.ts</mask>
       <mask>*.*ss</mask>
@@ -29,6 +29,10 @@
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>jless</mask>
+      <mask>jsoless</mask>
+      <mask>*.jsonless</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
