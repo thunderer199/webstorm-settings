@@ -5,6 +5,7 @@
     <option name="regularExpressions" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.jsp</mask>
@@ -13,17 +14,14 @@
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.js</mask>
       <mask>*ts</mask>
       <mask>*.d.ts</mask>
       <mask>*.*ss</mask>
       <mask>*.html</mask>
-      <mask>*.ts</mask>
       <mask>*.*ml</mask>
       <mask>gcpResult*.xml</mask>
       <mask>cpResult*.xml</mask>
       <mask>*</mask>
-      <mask>*.</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
@@ -32,6 +30,10 @@
       <mask>jsoless</mask>
       <mask>*.jsonless</mask>
       <mask>*.json</mask>
+      <mask>*.jso</mask>
+      <mask>*.js</mask>
+      <mask>*.</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
