@@ -33,7 +33,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="layout" value="{&#10;  &quot;id&quot;:&quot;&quot;,&#10;  &quot;classes&quot;: &quot;&quot;,&#10;  &quot;imports&quot;: [],&#10;  &quot;properties&quot;: {},&#10;  &quot;datasources&quot;: [],&#10;  &quot;widgets&quot;: []&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="layout" value="{&#10;  &quot;id&quot;:&quot;&quot;,&#10;  &quot;classes&quot;: &quot;&quot;,&#10;  &quot;imports&quot;: [],&#10;  &quot;properties&quot;: {},&#10;  &quot;datasources&quot;: [],&#10;  &quot;widgets&quot;: []&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSON" value="true" />
     </context>
