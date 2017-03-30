@@ -6,6 +6,7 @@
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="collectObjectProperties" type="PLAIN_TEXT" />
       <mapping pattern="pluck" type="PLAIN_TEXT" />
       <mapping pattern="extend" type="PLAIN_TEXT" />
       <mapping ext="md" type="PLAIN_TEXT" />
