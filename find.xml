@@ -3,9 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
+    <option name="FILE_MASK" value="*.less" />
     <recentFileMasks>
-      <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
       <mask>*.as</mask>
@@ -19,22 +18,23 @@
       <mask>gcpResult*.xml</mask>
       <mask>cpResult*.xml</mask>
       <mask>*</mask>
-      <mask>*.l</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
       <mask>jless</mask>
       <mask>jsoless</mask>
       <mask>*.jsonless</mask>
-      <mask>*.jso</mask>
-      <mask>*.js</mask>
-      <mask>*.</mask>
       <mask>*.ts</mask>
       <mask>j</mask>
       <mask>js</mask>
       <mask>jso</mask>
       <mask>json</mask>
       <mask>*.json</mask>
+      <mask>*.jso</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.</mask>
+      <mask>*.l</mask>
+      <mask>*.le</mask>
+      <mask>*.les</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
