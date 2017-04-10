@@ -5,6 +5,7 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
       <mask>*.xml</mask>
       <mask>*.java</mask>
@@ -27,15 +28,15 @@
       <mask>js</mask>
       <mask>jso</mask>
       <mask>json</mask>
-      <mask>*.json</mask>
       <mask>*.jso</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
       <mask>*.less</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
