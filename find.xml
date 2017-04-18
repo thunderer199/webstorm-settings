@@ -1,8 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Current File" />
-    <option name="defaultScopeName" value="Current File" />
-    <option name="SEARCH_SCOPE" value="Current File" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>*.xml</mask>
       <mask>*.java</mask>
@@ -16,11 +19,9 @@
       <mask>*.*ml</mask>
       <mask>gcpResult*.xml</mask>
       <mask>cpResult*.xml</mask>
-      <mask>*</mask>
       <mask>jless</mask>
       <mask>jsoless</mask>
       <mask>*.jsonless</mask>
-      <mask>*.ts</mask>
       <mask>j</mask>
       <mask>js</mask>
       <mask>jso</mask>
@@ -34,6 +35,8 @@
       <mask>*.j</mask>
       <mask>*.js</mask>
       <mask>*.json</mask>
+      <mask>*</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
