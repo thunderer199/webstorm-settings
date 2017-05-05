@@ -3,12 +3,10 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.html" />
     <recentFileMasks>
-      <mask>*.mxml</mask>
-      <mask>*ts</mask>
       <mask>*.d.ts</mask>
       <mask>*.*ss</mask>
-      <mask>*.html</mask>
       <mask>*.*ml</mask>
       <mask>gcpResult*.xml</mask>
       <mask>cpResult*.xml</mask>
@@ -34,6 +32,9 @@
       <mask>tsjson</mask>
       <mask>*.tsjson</mask>
       <mask>*.ts</mask>
+      <mask>h</mask>
+      <mask>ht</mask>
+      <mask>*.html</mask>
     </recentFileMasks>
   </component>
 </application>
