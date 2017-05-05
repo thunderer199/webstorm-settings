@@ -1,10 +1,5 @@
 <application>
   <component name="LanguageInjectionConfiguration">
-    <option name="INSTRUMENTATION" value="ASSERT" />
-    <option name="LANGUAGE_ANNOTATION" value="org.intellij.lang.annotations.Language" />
-    <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
-    <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
-    <option name="RESOLVE_REFERENCES" value="true" />
     <injection language="HTML" injector-id="xml">
       <display-name>div</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("div"))]]></place>
@@ -20,6 +15,10 @@
     <injection language="HTML" injector-id="xml">
       <display-name>section</display-name>
       <place><![CDATA[xmlTag().withLocalName(string().equalTo("section"))]]></place>
+    </injection>
+    <injection language="CSS" injector-id="xml">
+      <display-name>style</display-name>
+      <place><![CDATA[xmlTag().withLocalName(string().equalTo("style"))]]></place>
     </injection>
   </component>
 </application>
