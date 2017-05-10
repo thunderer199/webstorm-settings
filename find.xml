@@ -3,7 +3,6 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
       <mask>gcpResult*.xml</mask>
       <mask>cpResult*.xml</mask>
@@ -26,15 +25,15 @@
       <mask>*.html</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
-      <mask>*.js</mask>
       <mask>*.jh</mask>
       <mask>*.jht</mask>
       <mask>*.jhtml</mask>
       <mask>*</mask>
       <mask>*.</mask>
       <mask>*.j</mask>
-      <mask>*.jso</mask>
       <mask>*.json</mask>
+      <mask>*.jso</mask>
+      <mask>*.js</mask>
     </recentFileMasks>
   </component>
 </application>
