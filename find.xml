@@ -2,6 +2,8 @@
   <component name="FindSettings">
     <option name="customScope" value="File '[r4-ui-widgets-1] - ...\src\filters\ts\SuggestionBox.ts'" />
     <option name="defaultScopeName" value="File '[r4-ui-widgets-1] - ...\src\filters\ts\SuggestionBox.ts'" />
+    <option name="localRegularExpressions" value="true" />
+    <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="File '[r4-ui-widgets-1] - ...\src\filters\ts\SuggestionBox.ts'" />
     <recentFileMasks>
       <mask>gcpResult*.xml</mask>
