@@ -5,12 +5,14 @@
         <option value="TypeScript" />
       </set>
     </option>
-    <option name="LAST_SELECTED_LANGUAGE" value="TypeScript" />
+    <option name="LAST_SELECTED_LANGUAGE" value="JavaScript" />
   </component>
   <component name="MultiLanguageDuplocatorSettings">
-    <object language="TypeScript">
+    <object language="JavaScript">
       <option name="DISTINGUISH_FUNCTIONS" value="false" />
       <option name="DISTINGUISH_LITERALS" value="false" />
+    </object>
+    <object language="TypeScript">
       <option name="DISCARD_COST" value="5" />
     </object>
   </component>
