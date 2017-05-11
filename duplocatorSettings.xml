@@ -10,7 +10,8 @@
   <component name="MultiLanguageDuplocatorSettings">
     <object language="TypeScript">
       <option name="DISTINGUISH_FUNCTIONS" value="false" />
-      <option name="DISCARD_COST" value="10" />
+      <option name="DISTINGUISH_LITERALS" value="false" />
+      <option name="DISCARD_COST" value="5" />
     </object>
   </component>
 </application>
