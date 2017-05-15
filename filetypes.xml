@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="pluck" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
+      <mapping pattern="timestamp" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="collectObjectProperties" type="PLAIN_TEXT" />
       <mapping pattern="extend" type="PLAIN_TEXT" />
