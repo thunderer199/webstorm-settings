@@ -3,10 +3,8 @@
     <option name="customScope" value="Current File" />
     <option name="defaultScopeName" value="Current File" />
     <option name="SEARCH_SCOPE" value="Current File" />
+    <option name="FILE_MASK" value="*.json" />
     <recentFileMasks>
-      <mask>jsoless</mask>
-      <mask>*.jsonless</mask>
-      <mask>j</mask>
       <mask>js</mask>
       <mask>jso</mask>
       <mask>json</mask>
@@ -20,20 +18,23 @@
       <mask>h</mask>
       <mask>ht</mask>
       <mask>*.html</mask>
-      <mask>*.t</mask>
       <mask>*.jh</mask>
       <mask>*.jht</mask>
       <mask>*.jhtml</mask>
       <mask>*</mask>
-      <mask>*.</mask>
-      <mask>*.j</mask>
-      <mask>*.json</mask>
       <mask>*.jso</mask>
-      <mask>*.js</mask>
       <mask>t*s</mask>
       <mask>ts</mask>
       <mask>*ts</mask>
       <mask>*.ts</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
+      <mask>*.js</mask>
+      <mask>*.j</mask>
+      <mask>*.jj</mask>
+      <mask>*.jjso</mask>
+      <mask>*.jjson</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
