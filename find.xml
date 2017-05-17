@@ -5,10 +5,8 @@
     <option name="localRegularExpressions" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
-      <mask>gcpResult*.xml</mask>
-      <mask>cpResult*.xml</mask>
-      <mask>jless</mask>
       <mask>jsoless</mask>
       <mask>*.jsonless</mask>
       <mask>j</mask>
@@ -26,7 +24,6 @@
       <mask>ht</mask>
       <mask>*.html</mask>
       <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>*.jh</mask>
       <mask>*.jht</mask>
       <mask>*.jhtml</mask>
@@ -36,6 +33,10 @@
       <mask>*.json</mask>
       <mask>*.jso</mask>
       <mask>*.js</mask>
+      <mask>t*s</mask>
+      <mask>ts</mask>
+      <mask>*ts</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
