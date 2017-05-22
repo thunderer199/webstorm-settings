@@ -4,9 +4,6 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
-      <mask>js</mask>
-      <mask>jso</mask>
-      <mask>json</mask>
       <mask>*.l</mask>
       <mask>*.le</mask>
       <mask>*.les</mask>
@@ -20,20 +17,23 @@
       <mask>*.jh</mask>
       <mask>*.jht</mask>
       <mask>*.jhtml</mask>
-      <mask>*.jso</mask>
       <mask>t*s</mask>
       <mask>ts</mask>
       <mask>*ts</mask>
-      <mask>*.</mask>
       <mask>*.js</mask>
-      <mask>*.j</mask>
       <mask>*.jj</mask>
       <mask>*.jjso</mask>
       <mask>*.jjson</mask>
-      <mask>*.json</mask>
       <mask>*</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*.s</mask>
+      <mask>*.?s</mask>
+      <mask>*.?</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.jso</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
