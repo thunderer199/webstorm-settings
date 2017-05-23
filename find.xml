@@ -3,15 +3,8 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.css" />
     <recentFileMasks>
-      <mask>*.l</mask>
-      <mask>*.le</mask>
-      <mask>*.les</mask>
-      <mask>*.less</mask>
-      <mask>tjson</mask>
-      <mask>tsjson</mask>
-      <mask>*.tsjson</mask>
-      <mask>h</mask>
       <mask>ht</mask>
       <mask>*.html</mask>
       <mask>*.jh</mask>
@@ -24,16 +17,24 @@
       <mask>*.jjso</mask>
       <mask>*.jjson</mask>
       <mask>*</mask>
-      <mask>*.t</mask>
       <mask>*.s</mask>
       <mask>*.?s</mask>
       <mask>*.?</mask>
-      <mask>*.</mask>
       <mask>*.jso</mask>
       <mask>*.json</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
       <mask>*.ts</mask>
+      <mask>*.t</mask>
+      <mask>*.</mask>
+      <mask>*.less</mask>
+      <mask>*.les</mask>
+      <mask>*.le</mask>
+      <mask>*.lc</mask>
+      <mask>*.l</mask>
+      <mask>*.c</mask>
+      <mask>*.cs</mask>
+      <mask>*.css</mask>
     </recentFileMasks>
   </component>
 </application>
