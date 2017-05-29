@@ -4,9 +4,6 @@
     <option name="defaultScopeName" value="Current File" />
     <option name="SEARCH_SCOPE" value="Current File" />
     <recentFileMasks>
-      <mask>ht</mask>
-      <mask>*.html</mask>
-      <mask>*.jh</mask>
       <mask>*.jht</mask>
       <mask>*.jhtml</mask>
       <mask>t*s</mask>
@@ -27,13 +24,16 @@
       <mask>*.css</mask>
       <mask>*.cs</mask>
       <mask>*.c</mask>
-      <mask>*.json</mask>
       <mask>*.jso</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
       <mask>*.</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>j</mask>
+      <mask>js</mask>
+      <mask>jso</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
