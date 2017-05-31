@@ -25,15 +25,15 @@
       <mask>*.jso</mask>
       <mask>*.js</mask>
       <mask>*.j</mask>
-      <mask>*.t</mask>
-      <mask>*.ts</mask>
       <mask>j</mask>
       <mask>js</mask>
       <mask>jso</mask>
       <mask>*.json</mask>
-      <mask>*.</mask>
       <mask>*.h</mask>
       <mask>*.html</mask>
+      <mask>*.</mask>
+      <mask>*.t</mask>
+      <mask>*.ts</mask>
     </recentFileMasks>
   </component>
 </application>
