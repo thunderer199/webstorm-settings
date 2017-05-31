@@ -1,16 +1,17 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern="collectObjectProperties" type="PLAIN_TEXT" />
       <mapping pattern="pluck" type="PLAIN_TEXT" />
       <mapping pattern=".keep" type="PLAIN_TEXT" />
       <mapping pattern="timestamp" type="PLAIN_TEXT" />
-      <mapping pattern="lmhStat" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="collectObjectProperties" type="PLAIN_TEXT" />
       <mapping pattern="extend" type="PLAIN_TEXT" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern=".edtorconfig" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
+      <mapping pattern="lmhStat" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="3602066062" type="PLAIN_TEXT" />
       <mapping ext="woff" type="PLAIN_TEXT" />
       <mapping pattern="*.tslint.json" type="TSLint" />
       <removed_mapping ext="ats" type="TypeScript" />
