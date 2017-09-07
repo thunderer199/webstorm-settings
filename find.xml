@@ -3,7 +3,6 @@
     <option name="customScope" value="Project Files" />
     <option name="defaultScopeName" value="Project Files" />
     <option name="SEARCH_SCOPE" value="Project Files" />
-    <option name="FILE_MASK" value="*.ts" />
     <recentFileMasks>
       <mask>t*s</mask>
       <mask>ts</mask>
@@ -11,7 +10,6 @@
       <mask>*.jj</mask>
       <mask>*.jjso</mask>
       <mask>*.jjson</mask>
-      <mask>*</mask>
       <mask>*.s</mask>
       <mask>*.?s</mask>
       <mask>*.?</mask>
@@ -28,13 +26,14 @@
       <mask>jso</mask>
       <mask>*.h</mask>
       <mask>*.html</mask>
-      <mask>*.json</mask>
-      <mask>*.jso</mask>
-      <mask>*.js</mask>
-      <mask>*.j</mask>
-      <mask>*.</mask>
       <mask>*.t</mask>
       <mask>*.ts</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.j</mask>
+      <mask>*.js</mask>
+      <mask>*.jso</mask>
+      <mask>*.json</mask>
     </recentFileMasks>
   </component>
 </application>
